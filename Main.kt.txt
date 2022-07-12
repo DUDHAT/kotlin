@@ -1,0 +1,113 @@
+//  var names: String = "rajss"
+// fun main(){
+//     println("hello world");
+//     var name: String = "raj"
+//     println(names);
+//     println("hello world");
+//     var ded = 121
+//     println(ded);
+// }
+fun main(){
+//    val name = "John"
+// 	println(name) 
+
+// Arithmetic operators
+// +,-,*,/,%,++,--
+
+//  Assignment Operators
+// =	x = 5	x = 5	
+// +=	x += 3	x = x + 3	
+// -=	x -= 3	x = x - 3	
+// *=	x *= 3	x = x * 3	
+// /=	x /= 3	x = x / 3	
+// %=	x %= 3	x = x % 3
+    
+//     ==	Equal to	x == y	
+// !=	Not equal	x != y	
+// >	Greater than	x > y	
+// <	Less than	x < y	
+// >=	Greater than or equal to	x >= y	
+// <=	Less than or equal to	x <= y
+
+//     var name: String
+// name = "John"
+// println(name)// ==> true
+
+// var name
+// name = "John"
+// println(name)// ==> false
+// 
+// val day = 4
+
+// val result = when (day) {
+//   1 -> "Monday"
+//   2 -> "Tuesday"
+//   3 -> "Wednesday"
+//   4 -> "Thursday"
+//   5 -> "Friday"
+//   6 -> "Saturday"
+//   7 -> "Sunday"
+//   else -> "Invalid day."
+// }
+// println(result)
+
+//     var i = 0
+// while (i < 5) {
+//   println(i)
+//   i++
+// } 
+// 
+
+// var i = 0
+// while (i < 10) {
+//   if (i == 4) {
+//     i++
+//     continue
+//   }
+//   println(i)
+//   i++
+// }
+
+// val cars = arrayOf("Volvo", "BMW", "Ford", "Mazda")
+// println(cars[0])
+
+// cars[0] = "Opel"
+//     println(cars[0])
+//     
+// val cars = arrayOf("Volvo", "BMW", "Ford", "Mazda")
+// cars[0] = "Opel"
+// println(cars.size)
+
+// val cars = arrayOf("Volvo", "BMW", "Ford", "Mazda")
+// for (x in cars) {
+//   println(x)
+// }
+// for (nums in 5..15) {
+//   if (nums == 10) {
+//     continue
+//   }
+//   println(nums)
+// }
+//  myFunction("John")
+//   myFunction("Jane")
+//   myFunction("George")
+  
+  val c1 = Car()
+
+// Access the properties and add some values to it
+c1.brand = "Ford"
+c1.model = "Mustang"
+c1.year = 1969
+
+println(c1.brand)   // Outputs Ford
+println(c1.model)   // Outputs Mustang
+println(c1.year) 
+}
+// fun myFunction(fname: String) {
+//   println(fname + " Doe")
+// }
+class Car {
+  var brand = ""
+  var model = ""
+  var year = 0
+} 
